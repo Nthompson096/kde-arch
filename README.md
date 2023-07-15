@@ -38,12 +38,12 @@ spice-vdagent
 A web browser is optional; but it can help.
 the spice deamon is also optional but it's good to have for VM's mainly for copy-paste under KVM.
 ```
-Next edit in airrootfs/root.zlogin
+Next edit in airootfs/root.zlogin
 ```
 systemctl enable sddm.service --now
 spice-vdagent
 ```
-add in airrootfs/etc/sddm.conf:
+add in airootfs/etc/sddm.conf:
 ```
 [Autologin]
 User=root
@@ -52,7 +52,7 @@ Session=plasma.desktop
 [Users]
 MinimumUid=0
 ```
-edit in airrootfs/root/.config/powermanagementprofilesrc:
+edit in airootfs/root/.config/powermanagementprofilesrc:
 ```
 [Screen]
 ...
@@ -62,4 +62,4 @@ SuspendTime=0
 OffTime=0
 ...
 ```
-Edit your motd in, you've guessed it airrootfs/etc/motd and make it blank.
+Edit your motd in, you've guessed it airootfs/etc/motd and make it blank.
