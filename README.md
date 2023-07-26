@@ -1,5 +1,5 @@
 # kde-arch
-My own arch linux ISO with KDE bult inside it.
+My own arch linux ISO with KDE built inside it.
 
 #How to install
 
