@@ -9,6 +9,8 @@ can either be releng/ or baseline/
 pick your poison essentially.
 also recommend [reading the wiki](https://wiki.archlinux.org/title/archiso).
 
+place this inside to where you copied either baseline/ or releng/
+
 ```
 #!/bin/bash
 
