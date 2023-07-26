@@ -62,6 +62,23 @@ SuspendTime=0
 OffTime=0
 ...
 ```
+packages.x86_64
+```
+firefox
+git
+plasma-meta
+sddm
+konsole
+cmake
+extra-cmake-modules
+qt5-svg
+kpmcore
+yaml-cpp
+boost-libs
+spice-vdagent
+dolphin
+htop
+```
 Edit your motd in, you've guessed it airootfs/etc/motd and make it blank.
 
 to edit the ISO name after a successful build you would need to do the following and edit these lines:
@@ -71,4 +88,4 @@ iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="KDE Arch Linux <https://archlinux.org>"
 iso_application="Arch Linux Live with KDE"
 ```
-That's it, go build!
+That's it, go build! you won't be able to install this inside a actuall OS unless if you use calamares; which I'm having a hard time with because it's an linux distro-agnostic independent installer.
