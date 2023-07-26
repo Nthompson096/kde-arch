@@ -71,4 +71,4 @@ iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="KDE Arch Linux <https://archlinux.org>"
 iso_application="Arch Linux Live with KDE"
 ```
-That's it, go build! you won't be able to install this inside a actuall OS unless if you use calamares; which I'm having a hard time with because it's an linux distro-agnostic independent installer.
+That's it, go build! you won't be able to install this inside a actual OS unless if you use calamares; which I'm having a hard time with because it's an linux distro-agnostic independent installer.
