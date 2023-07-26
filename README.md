@@ -1,7 +1,7 @@
 # kde-arch
 My own arch linux ISO with KDE built inside it.
 
-#How to install
+# How to install
 
 simply install archiso and use this script inisde a copied /usr/share/archiso/configs/
 
