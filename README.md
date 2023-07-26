@@ -35,8 +35,8 @@ konsole
 dolphin
 firefox
 spice-vdagent
-A web browser is optional; but it can help.
-the spice deamon is also optional but it's good to have for VM's mainly for copy-paste under KVM.
+# A web browser is optional; but it can help.
+# the spice deamon is also optional but it's good to have for VM's mainly for copy-paste under KVM.
 ```
 Next edit in airootfs/root.zlogin
 ```
@@ -61,23 +61,6 @@ StandbyTime=0
 SuspendTime=0
 OffTime=0
 ...
-```
-packages.x86_64
-```
-firefox
-git
-plasma-meta
-sddm
-konsole
-cmake
-extra-cmake-modules
-qt5-svg
-kpmcore
-yaml-cpp
-boost-libs
-spice-vdagent
-dolphin
-htop
 ```
 Edit your motd in, you've guessed it airootfs/etc/motd and make it blank.
 
