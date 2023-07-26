@@ -21,9 +21,9 @@ else
 fi
 
 if [[ -d work/ ]]; then
-	rm -r work/ && mkarchiso -v -w work -o /path/to/yor/iso/dest/ .
+	rm -r work/ && mkarchiso -v -w work -o /path/to/your/iso/dest/ .
 elif [[ ! -d work/ ]]; then
-	mkarchiso -v -w work -o /path/to/yor/iso/dest/ .
+	mkarchiso -v -w work -o /path/to/your/iso/dest/ .
 fi
 ```
 
